@@ -6,6 +6,7 @@
   "keywords": ["node", "express", "milkcocoa"],
   "env": {
     "MILKCOCOA_APP_ID": "",
-    "MILKCOCOA_DATASTORE_ID": "heroku_sample"
+    "MILKCOCOA_API_KEY": "",
+    "MILKCOCOA_DATASTORE_ID": "v3_heroku_sample"
   }
 }
