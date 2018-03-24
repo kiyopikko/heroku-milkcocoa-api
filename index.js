@@ -43,13 +43,13 @@ app.get('/', function(request, response) {
   response.send('Hello Milkcocoa!');
 });
 
-app.get('/mail', jsonParser, function(request, response) {
-  console.log(request.body)
+app.get('/mail', function(request, response) {
+  console.log(request)
   response.sendStatus(200);
 });
 
-app.post('/mail', jsonParser, function(request, response) {
-  console.log(request.body)
+app.post('/mail', function(request, response) {
+  console.log(request)
   response.sendStatus(200);
 });
 
